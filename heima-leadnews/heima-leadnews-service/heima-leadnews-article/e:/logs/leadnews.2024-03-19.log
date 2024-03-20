@@ -1,0 +1,126 @@
+2024-03-19 22:00:06.463 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.heima.article.test.ArticleFreemarkerTest], using SpringBootContextLoader
+2024-03-19 22:00:06.470 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.heima.article.test.ArticleFreemarkerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-03-19 22:00:06.676 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2024-03-19 22:00:06.706 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3b35a229, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@9816741, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e16c0aa, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13d73f29, org.springframework.test.context.support.DirtiesContextTestExecutionListener@565f390, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7dc3712, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2f67a4d3, org.springframework.test.context.event.EventPublishingTestExecutionListener@5e3f861, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2fb0623e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@49b2a47d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5be1d0a4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@415b0b49, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6d5620ce, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@311bf055]
+2024-03-19 22:00:08.085 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:/Users/dreamtank/nacos/config
+2024-03-19 22:00:08.134 [main] INFO  c.a.nacos.client.config.impl.Limiter - limitTime:5.0
+2024-03-19 22:00:08.194 [main] INFO  c.a.n.client.config.utils.JvmUtil - isMultiInstance:false
+2024-03-19 22:00:08.212 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[leadnews-article.yml] & group[DEFAULT_GROUP]
+2024-03-19 22:00:08.214 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-leadnews-article.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-leadnews-article,DEFAULT_GROUP'}]
+2024-03-19 22:00:08.228 [main] INFO  c.h.a.test.ArticleFreemarkerTest - No active profile set, falling back to default profiles: default
+2024-03-19 22:00:09.471 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-19 22:00:09.477 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-19 22:00:09.520 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2024-03-19 22:00:09.656 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2024-03-19 22:00:09.844 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=8ec1c0e0-42d7-39ed-b04a-3f4f1855e1df
+2024-03-19 22:00:11.914 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2024-03-19 22:00:11.916 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
+2024-03-19 22:00:11.916 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2024-03-19 22:00:12.456 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2024-03-19 22:00:13.020 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-03-19 22:00:13.020 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-03-19 22:00:13.038 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-03-19 22:00:13.038 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-03-19 22:00:13.329 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-19 22:00:13.634 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-03-19 22:00:13.777 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-03-19 22:00:15.450 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2024-03-19 22:00:15.465 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+2024-03-19 22:00:15.508 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2024-03-19 22:00:15.614 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2024-03-19 22:00:15.622 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: loadUsingPOST_1
+2024-03-19 22:00:15.624 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: loadMoreUsingPOST_1
+2024-03-19 22:00:15.626 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: loadNewUsingPOST_1
+2024-03-19 22:00:15.642 [main] INFO  c.h.a.test.ArticleFreemarkerTest - Started ArticleFreemarkerTest in 8.804 seconds (JVM running for 10.424)
+2024-03-19 22:00:15.650 [main] INFO  c.a.n.c.config.impl.ClientWorker - [fixed-localhost_8848] [subscribe] leadnews-article.yml+DEFAULT_GROUP
+2024-03-19 22:00:15.651 [main] INFO  c.a.n.client.config.impl.CacheData - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=leadnews-article.yml, group=DEFAULT_GROUP, cnt=1
+2024-03-19 22:00:15.652 [main] INFO  c.a.n.c.config.impl.ClientWorker - [fixed-localhost_8848] [subscribe] leadnews-article+DEFAULT_GROUP
+2024-03-19 22:00:15.652 [main] INFO  c.a.n.client.config.impl.CacheData - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=leadnews-article, group=DEFAULT_GROUP, cnt=1
+2024-03-19 22:00:16.004 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-19 22:00:16.420 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-19 22:00:16.477 [Thread-4] WARN  c.a.n.c.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-03-19 22:00:16.478 [Thread-16] WARN  c.a.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2024-03-19 22:00:16.478 [Thread-16] WARN  c.a.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2024-03-19 22:00:16.478 [Thread-4] WARN  c.a.n.c.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2024-03-19 22:00:16.480 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-03-19 22:00:16.484 [SpringContextShutdownHook] INFO  o.s.j.e.a.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2024-03-19 22:00:16.486 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-03-19 22:00:16.486 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-03-19 22:00:16.486 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-03-19 22:00:18.461 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-03-19 22:00:21.471 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-03-19 22:00:21.472 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-03-19 22:00:21.943 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-03-19 22:00:21.943 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-03-19 22:00:21.943 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-03-19 22:00:21.944 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-03-19 22:00:21.944 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2024-03-19 22:00:21.944 [SpringContextShutdownHook] INFO  c.a.n.c.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2024-03-19 22:00:21.944 [SpringContextShutdownHook] INFO  c.a.n.c.identify.CredentialService - [null] CredentialService is freed
+2024-03-19 22:00:21.944 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-03-19 22:00:21.945 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-19 22:00:21.973 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-19 22:00:21.997 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-03-19 22:26:31.912 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.heima.article.test.ArticleFreemarkerTest], using SpringBootContextLoader
+2024-03-19 22:26:31.920 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.heima.article.test.ArticleFreemarkerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-03-19 22:26:32.114 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2024-03-19 22:26:32.144 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3b35a229, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@9816741, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e16c0aa, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13d73f29, org.springframework.test.context.support.DirtiesContextTestExecutionListener@565f390, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7dc3712, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2f67a4d3, org.springframework.test.context.event.EventPublishingTestExecutionListener@5e3f861, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2fb0623e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@49b2a47d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5be1d0a4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@415b0b49, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6d5620ce, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@311bf055]
+2024-03-19 22:26:33.644 [main] INFO  c.a.n.c.c.i.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:/Users/dreamtank/nacos/config
+2024-03-19 22:26:33.691 [main] INFO  c.a.nacos.client.config.impl.Limiter - limitTime:5.0
+2024-03-19 22:26:33.742 [main] INFO  c.a.n.client.config.utils.JvmUtil - isMultiInstance:false
+2024-03-19 22:26:33.763 [main] WARN  c.a.c.n.c.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[leadnews-article.yml] & group[DEFAULT_GROUP]
+2024-03-19 22:26:33.764 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-leadnews-article.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-leadnews-article,DEFAULT_GROUP'}]
+2024-03-19 22:26:33.777 [main] INFO  c.h.a.test.ArticleFreemarkerTest - No active profile set, falling back to default profiles: default
+2024-03-19 22:26:35.152 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-03-19 22:26:35.155 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-19 22:26:35.238 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 Redis repository interfaces.
+2024-03-19 22:26:35.361 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2024-03-19 22:26:35.625 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=8ec1c0e0-42d7-39ed-b04a-3f4f1855e1df
+2024-03-19 22:26:37.806 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2024-03-19 22:26:37.807 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
+2024-03-19 22:26:37.808 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2024-03-19 22:26:38.275 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2024-03-19 22:26:38.790 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-03-19 22:26:38.790 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-03-19 22:26:38.812 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-03-19 22:26:38.812 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-03-19 22:26:39.111 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-19 22:26:39.404 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-03-19 22:26:39.548 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-03-19 22:26:41.117 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2024-03-19 22:26:41.133 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+2024-03-19 22:26:41.172 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2024-03-19 22:26:41.279 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2024-03-19 22:26:41.286 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: loadUsingPOST_1
+2024-03-19 22:26:41.289 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: loadMoreUsingPOST_1
+2024-03-19 22:26:41.291 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: loadNewUsingPOST_1
+2024-03-19 22:26:41.309 [main] INFO  c.h.a.test.ArticleFreemarkerTest - Started ArticleFreemarkerTest in 9.026 seconds (JVM running for 10.394)
+2024-03-19 22:26:41.317 [main] INFO  c.a.n.c.config.impl.ClientWorker - [fixed-localhost_8848] [subscribe] leadnews-article.yml+DEFAULT_GROUP
+2024-03-19 22:26:41.319 [main] INFO  c.a.n.client.config.impl.CacheData - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=leadnews-article.yml, group=DEFAULT_GROUP, cnt=1
+2024-03-19 22:26:41.319 [main] INFO  c.a.n.c.config.impl.ClientWorker - [fixed-localhost_8848] [subscribe] leadnews-article+DEFAULT_GROUP
+2024-03-19 22:26:41.319 [main] INFO  c.a.n.client.config.impl.CacheData - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=leadnews-article, group=DEFAULT_GROUP, cnt=1
+2024-03-19 22:26:41.639 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-19 22:26:41.988 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-19 22:26:42.370 [Thread-4] WARN  c.a.n.c.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-03-19 22:26:42.370 [Thread-16] WARN  c.a.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2024-03-19 22:26:42.371 [Thread-16] WARN  c.a.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2024-03-19 22:26:42.371 [Thread-4] WARN  c.a.n.c.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2024-03-19 22:26:42.372 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-03-19 22:26:42.376 [SpringContextShutdownHook] INFO  o.s.j.e.a.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2024-03-19 22:26:42.377 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-03-19 22:26:42.377 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-03-19 22:26:42.377 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-03-19 22:26:44.130 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-03-19 22:26:47.142 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-03-19 22:26:47.143 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-03-19 22:26:47.832 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-03-19 22:26:47.833 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-03-19 22:26:47.834 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-03-19 22:26:47.839 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-03-19 22:26:47.840 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2024-03-19 22:26:47.843 [SpringContextShutdownHook] INFO  c.a.n.c.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2024-03-19 22:26:47.844 [SpringContextShutdownHook] INFO  c.a.n.c.identify.CredentialService - [null] CredentialService is freed
+2024-03-19 22:26:47.845 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-03-19 22:26:47.849 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-19 22:26:47.889 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-03-19 22:26:47.902 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -48,6 +48,17 @@ public class AuthorizeFilter implements Ordered, GlobalFilter {
                 response.setStatusCode(HttpStatus.UNAUTHORIZED);
                 return response.setComplete();
             }
+            
+            // ユーザー情報を取得する
+            Object userId = claimsBody.get("id");
+            
+            // header に保存する
+            ServerHttpRequest serverHttpRequest  = request.mutate().headers(httpHeaders -> {
+            	httpHeaders.add("userId",userId + "");
+            }).build();
+            		
+           exchange.mutate().request(serverHttpRequest);
+            
 
         } catch (Exception e) {
             e.printStackTrace();
